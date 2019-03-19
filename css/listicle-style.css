@@ -67,6 +67,7 @@ div.heading-number-container{
 div.number{
     position: absolute;
     right:40px;
+    font-weight: normal;
     color: rgba(0, 0, 0, 0.25);
 }
 
@@ -91,8 +92,8 @@ img{
     width: 100%;
 }
 
-p{
-    margin: 0;
+p,b{
+    margin: 20px 0;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     line-height: 32px;
