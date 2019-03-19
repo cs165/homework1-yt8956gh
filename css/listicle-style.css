@@ -1,12 +1,22 @@
-/**
- TODO(you): Write the CSS necessary to complete HW1!
-*/
-body{
+
+body {
     margin: 0;
     text-align: center;
 }
 
-div.header-container{
+img {
+    width: 100%;
+}
+
+p, b {
+    margin: 20px 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51, 51, 51);
+}
+
+div.header-container {
 
     display: flex;
     justify-content: center;
@@ -16,12 +26,12 @@ div.header-container{
     margin: 0;
     background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("../images/header.jpg");
     background-size: cover;
-    background-position:top;
-    background-repeat:no-repeat;
+    background-position: top;
+    background-repeat: no-repeat;
 
 }
 
-#header_text{
+#header_text {
 
     width: 780px;
     color: white;
@@ -30,83 +40,71 @@ div.header-container{
     font-family: 'Roboto Slab', serif;
 }
 
-#profile{
+#profile {
     display: block;
-    margin-right:auto;
-    margin-left:auto;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: -50px;
-    height:100px;
+    height: 100px;
     width: 100px;
     border: 1px white solid;
     border-radius: 100%;
     box-sizing: border-box;
 }
 
-#profile-text{
+#profile-text {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
-    color: rgb(51,51,51);
+    color: rgb(51, 51, 51);
     line-height: 24px;
 }
 
-#profile-text i{
+#profile-text i {
     padding-bottom: 10px;
     border-bottom: #e6e6e6 2px solid;
 }
 
-#content{
+#content {
     margin: 60px auto;
     width: 66.67%;
     text-align: left;
 }
 
-div.heading-number-container{
+div.heading-number-container {
     position: absolute;
 }
 
-div.number{
+div.heading-number {
     position: absolute;
-    right:40px;
+    right: 40px;
     font-weight: normal;
     color: rgba(0, 0, 0, 0.25);
 }
 
-.heading{
-    font-family: 'Roboto Slab', serif;
-    font-size: 36px;
+div.heading-text {
     font-weight: bold;
-    color: rgb(51,51,51);
+    color: rgb(51, 51, 51);
 }
 
-a.address{
+div.inter-article {
+    margin: 0;
+    height: 120px;
+}
+
+div.heading-font {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+}
+
+a.address {
     font-family: 'Roboto Slab', serif;
     color: #42b4d6;
     text-decoration: none;
 }
 
-a.address:hover{
+a.address:hover {
     text-decoration: underline;
 }
 
-img{
-    width: 100%;
-}
 
-p,b{
-    margin: 20px 0;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
-    line-height: 32px;
-    color:rgb(51, 51, 51);
-}
-
-div.blank-line{
-    margin:0;
-    height:20px;
-}
-
-div.inter-article{
-    margin:0;
-    height:120px;
-}
 
