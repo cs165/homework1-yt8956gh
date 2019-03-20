@@ -74,6 +74,11 @@ div.heading-number-container {
     position: absolute;
 }
 
+div.heading-font {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+}
+
 div.heading-number {
     position: absolute;
     right: 40px;
@@ -89,11 +94,6 @@ div.heading-text {
 div.inter-article {
     margin: 0;
     height: 120px;
-}
-
-div.heading-font {
-    font-family: 'Roboto Slab', serif;
-    font-size: 36px;
 }
 
 a.address {

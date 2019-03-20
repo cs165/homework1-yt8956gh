@@ -1,3 +1,165 @@
 /**
  TODO(you): Add CSS for the list that you create yourself!
 */
+body{
+    margin: 0;
+}
+
+.flex-container-column
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-image: linear-gradient(to top,rgba(0,0,0,0),rgba(25,25,25,0.5)),url("../images/pooh's-home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+div.header-text{
+    font-family: 'Croissant One', cursive;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+}
+
+div.mine-navbar-container{
+    position: fixed;
+    top:0;
+    right: 0;
+    height: 75px;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lora', serif;
+}
+
+div.mine-navbar-container:hover{
+    animation-name: color_change;
+    animation-duration: 500ms;
+    animation-timing-function: ease-in-out;
+    background-color: black;
+}
+
+
+@keyframes color_change {
+    from{background-color: transparent}
+    to{background-color: black;}
+}
+
+div.mine-navbar-container .mine-navbar-stretch {
+    flex-grow: 1;
+}
+
+div.mine-navbar-container .mine-navbar-title {
+    font-size: 30px;
+    margin-left: 50px;
+}
+div.mine-navbar-container .mine-navbar-item {
+    font-size: 20px;
+    margin-right: 50px;
+    padding:5px 10px;
+}
+
+div.mine-navbar-container .mine-navbar-item:hover {
+    background-color: rgb(232, 184, 38);
+    color: rgb(146, 14, 27);
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+div.article {
+    width: 50%;
+    font-family: 'Lora', serif;
+    font-size:20px;
+    line-height: 50px;
+    text-align: left;
+    margin: 60px auto;
+}
+
+div.fixed-picture {
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    font-family: 'Croissant One', cursive;
+    font-size:150px;
+    color: white;
+}
+
+#profile{
+    display: block;
+    border-radius: 100%;
+    height: 150px;
+    margin: -75px auto 0 auto;
+    border: 2px white solid;
+}
+
+#profile:hover{
+    animation: rotation_profile;
+    animation-duration:1s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes rotation_profile {
+    from{transform:rotate(0deg);}
+    to{transform:rotate(720deg);}
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+footer div.footer-upper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    background-color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lora', serif;
+
+}
+
+footer div.footer-lower {
+    background-color: black;
+    height: calc(100vh - 600px);
+    color: gray;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+}
+
+img.thanks {
+    display: block;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+#contact {
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    background-color: #996d0b;
+    color: black;
+}
