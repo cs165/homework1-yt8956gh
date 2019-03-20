@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70d86a21-2821-4e22-8f98-91956f8addcf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/my-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/my-list-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/my-list-style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1300">
-              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            <state relative-caret-position="150">
+              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -24,17 +25,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/listicle-content.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-525">
+            <state>
               <caret column="53" selection-start-column="53" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/my-list-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1152">
-              <caret line="227" column="43" lean-forward="true" selection-start-line="222" selection-start-column="4" selection-end-line="227" selection-end-column="43" />
+            <state relative-caret-position="631">
+              <caret line="381" column="1" selection-start-line="381" selection-start-column="1" selection-end-line="381" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -66,8 +67,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/listicle-style.css" />
         <option value="$PROJECT_DIR$/listicle.html" />
-        <option value="$PROJECT_DIR$/css/my-list-style.css" />
         <option value="$PROJECT_DIR$/my-list.html" />
+        <option value="$PROJECT_DIR$/css/my-list-style.css" />
       </list>
     </option>
   </component>
@@ -135,12 +136,13 @@
       <option name="presentableId" value="Default" />
       <updated>1552925101775</updated>
       <workItem from="1552925104236" duration="18158000" />
-      <workItem from="1553063144260" duration="25816000" />
+      <workItem from="1553063144260" duration="26263000" />
+      <workItem from="1553100374208" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43974000" />
+    <option name="totallyTimeSpent" value="44438000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -223,24 +225,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/listicle-content.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525">
+        <state>
           <caret column="53" selection-start-column="53" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/my-list-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="227" column="43" lean-forward="true" selection-start-line="222" selection-start-column="4" selection-end-line="227" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1300">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        <state relative-caret-position="631">
+          <caret line="381" column="1" selection-start-line="381" selection-start-column="1" selection-end-line="381" selection-end-column="1" />
         </state>
       </provider>
     </entry>
